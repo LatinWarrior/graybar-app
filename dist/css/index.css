@@ -13166,6 +13166,14 @@ body[dir="rtl"] .checkbox:checked,
   height: 20%;
 }
 
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[20rem\] {
+  height: 20rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -13664,6 +13672,14 @@ body[dir="rtl"] .checkbox:checked,
 
 .w-\[24rem\] {
   width: 24rem;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[40re\] {
+  width: 40re;
 }
 
 .min-w-0 {
@@ -54832,6 +54848,10 @@ body[dir="rtl"] .checkbox:checked,
 
   .lg\:w-72 {
     width: 18rem;
+  }
+
+  .lg\:min-w-\[50\%\] {
+    min-width: 50%;
   }
 
   .lg\:grid-cols-3 {
