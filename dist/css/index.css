@@ -13142,6 +13142,30 @@ body[dir="rtl"] .checkbox:checked,
   height: fit-content;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
+.h-\[10\] {
+  height: 10;
+}
+
+.h-\[10\%\] {
+  height: 10%;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[20\%\] {
+  height: 20%;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -54480,6 +54504,16 @@ body[dir="rtl"] .checkbox:checked,
 .content-none {
   --tw-content: none;
   content: var(--tw-content);
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1024px) {
