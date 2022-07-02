@@ -3,7 +3,7 @@ import { Project } from '../project/Project';
 
 export const ProjectList = () => {
     return (
-        <div>
+        <div className='flex flex-col align-middle  gap-2 flex-wrap m-4 w-96'>
             <Project name='project 1' />
             <Project name='project 2' />
             <Project name='project 3' />

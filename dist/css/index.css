@@ -13630,6 +13630,18 @@ body[dir="rtl"] .checkbox:checked,
   width: fit-content;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
