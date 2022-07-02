@@ -43,7 +43,7 @@ export const CustomNavbar = () => {
                     </Dropdown>
                     <NavLink
                         className='btn btn-ghost normal-case text-xl'
-                        to={'/home'}>
+                        to={'/'}>
                         Greenbar & Artisans
                     </NavLink>
                     {/* <a className='btn btn-ghost normal-case text-xl'>

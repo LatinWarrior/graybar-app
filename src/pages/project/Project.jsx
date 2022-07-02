@@ -14,7 +14,7 @@ export const Project = ({ project }) => {
     };
 
     return (
-        <div className='bg-slate-300'>
+        <div className='bg-slate-300 overflow-hidden shadow-lg'>
             <div className='mt-4 pl-4 text-bold text-2xl'>{name}</div>
             <div className='px-8 py-4'>
                 <img
