@@ -1,20 +1,22 @@
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Hero, Button, Navbar } from 'react-daisyui';
 
 export const Home = () => {
     return (
-        <main role='main' class='w-full h-full border-yellow-600 bg-slate-100'>
+        <main role='main' class='w-full h-full bg-slate-100'>
             <Hero
                 className='h-full'
                 style={{ backgroundImage: 'url(/assets/placeholder.png)' }}>
                 <Hero.Content>
-                    <div className='flex flex-col md:flex-row'>
-                        <img
-                            src='/images/construction_6.jpg'
-                            className='mx-auto  rounded-lg shadow-2xl md:max-w-sm' alt='Construction'
-                        />
+                    <div className='flex flex-col md:flex-row md:justify-around'>
+                        <div className='md:mr-10 md:mt-6'>
+                            <img
+                                src='/images/construction_6.jpg'
+                                className='mx-auto rounded-lg shadow-2xl md:max-w-sm'
+                                alt='Construction'
+                            />
+                        </div>
                         <div>
                             <h1 className='mt-6 text-3xl md:text-5xl font-bold md:ml-4'>
                                 Welcome to Greenbar & Artisans
