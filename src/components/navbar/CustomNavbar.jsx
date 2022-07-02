@@ -10,9 +10,8 @@ export const CustomNavbar = () => {
                 <Navbar.Start>
                     <Dropdown>
                         <Button
-                            color='ghost'
                             tabIndex={0}
-                            className='lg:hidden'>
+                            className='lg:hidden bg-customDarkBlue hover:bg-customMediumBlue'>
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
                                 className='h-5 w-5'
