@@ -54481,3 +54481,13 @@ body[dir="rtl"] .checkbox:checked,
   --tw-content: none;
   content: var(--tw-content);
 }
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+}
