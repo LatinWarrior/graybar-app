@@ -1,13 +1,15 @@
 import React from 'react';
 import { Project } from '../project/Project';
 
+import projectList from './../../data/construction_6';
+
 export const ProjectList = () => {
     return (
-        <div className='flex flex-col align-middle  gap-2 flex-wrap m-4 w-96'>
-            <Project name='project 1' imageNumber={1} />
-            <Project name='project 2' imageNumber={2} />
-            <Project name='project 3' imageNumber={3} />
-            <Project name='project 4' imageNumber={4} />
+        <div className='flex flex-col align-middle gap-2 flex-wrap m-4'>
+            {projectList.map((project) => {
+                console.log(`project: ${JSON.stringify(project)}`);
+                return <Project project={project} key={project.id} />;
+            })}
         </div>
     );
 };

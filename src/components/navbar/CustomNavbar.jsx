@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Navbar, Button, Dropdown, Menu } from 'react-daisyui';
+import { Link, NavLink } from 'react-router-dom';
 
 export const CustomNavbar = () => {
     return (
@@ -29,29 +30,40 @@ export const CustomNavbar = () => {
                         <Dropdown.Menu
                             tabIndex={0}
                             className='w-52 menu-compact mt-3'>
-                            <Dropdown.Item>About Us</Dropdown.Item>
-                            <Dropdown.Item>Projects 1</Dropdown.Item>
-                            <Dropdown.Item>Projects 2</Dropdown.Item>
+                            <Dropdown.Item>
+                                <NavLink to={'/about'}>About Us</NavLink>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <NavLink to={'/contact'}>About Us</NavLink>
+                            </Dropdown.Item>
+                            <Dropdown.Item to={'/projects'}>
+                                Projects
+                            </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <a className='btn btn-ghost normal-case text-xl'>
+                    <NavLink
+                        className='btn btn-ghost normal-case text-xl'
+                        to={'/home'}>
                         Greenbar & Artisans
-                    </a>
+                    </NavLink>
+                    {/* <a className='btn btn-ghost normal-case text-xl'>
+                        Greenbar & Artisans
+                    </a> */}
                 </Navbar.Start>
                 <Navbar.Center className='hidden lg:flex'>
                     <Menu horizontal className='p-0'>
-                        <Menu.Item>
-                            <a>About Us</a>
-                        </Menu.Item>
                         <Menu.Item tabIndex={0}>
-                            <a>Projects 1</a>
+                            <NavLink to={'/about'}>About Us</NavLink>
                         </Menu.Item>
                         <Menu.Item tabIndex={1}>
-                            <a>Projects 2</a>
+                            <NavLink to={'/contact'}>Contact Us</NavLink>
+                        </Menu.Item>
+                        <Menu.Item tabIndex={2}>
+                            <NavLink to={'/projects'}>Projects</NavLink>
                         </Menu.Item>
                     </Menu>
                 </Navbar.Center>
-                <Navbar.End>Hello</Navbar.End>
+                <Navbar.End></Navbar.End>
             </Navbar>
         </div>
     );

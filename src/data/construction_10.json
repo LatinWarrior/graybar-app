@@ -1,0 +1,84 @@
+{
+    "projectList": [
+        {
+            "id": 1,
+            "name": "Jarred Project",
+            "type": "Drywall & Acoustical (MOB)",
+            "address": "6655 Carberry Center",
+            "image": "/images/construction_1.jpg",
+            "description": "Gazella thompsonii"
+        },
+        {
+            "id": 2,
+            "name": "Thorn Project",
+            "type": "Termite Control",
+            "address": "032 Lien Center",
+            "image": "/images/construction_2.jpg",
+            "description": "unavailable"
+        },
+        {
+            "id": 3,
+            "name": "Faller Project",
+            "type": "Termite Control",
+            "address": "55 Namekagon Drive",
+            "image": "/images/construction_3.jpg",
+            "description": "Macaca radiata"
+        },
+        {
+            "id": 4,
+            "name": "Cordial Project",
+            "type": "Exterior Signage",
+            "address": "79624 Duke Terrace",
+            "image": "/images/construction_4.jpg",
+            "description": "Leptoptilos crumeniferus"
+        },
+        {
+            "id": 5,
+            "name": "Midge Project",
+            "type": "Drywall & Acoustical (MOB)",
+            "address": "6351 Everett Terrace",
+            "image": "/images/construction_5.jpg",
+            "description": "Acrobates pygmaeus"
+        },
+        {
+            "id": 6,
+            "name": "Brittany Project",
+            "type": "Temp Fencing, Decorative Fencing and Gates",
+            "address": "5 Gina Street",
+            "image": "/images/construction_6.jpg",
+            "description": "Epicrates cenchria maurus"
+        },
+        {
+            "id": 7,
+            "name": "Lane Project",
+            "type": "Termite Control",
+            "address": "4763 Manitowish Crossing",
+            "image": "/images/construction_7.jpg",
+            "description": "Erinaceus frontalis"
+        },
+        {
+            "id": 8,
+            "name": "Garden Project",
+            "type": "HVAC",
+            "address": "9284 Elmside Crossing",
+            "image": "/images/construction_8.jpg",
+            "description": "Lepilemur rufescens"
+        },
+        {
+            "id": 9,
+            "name": "Vivian Project",
+            "type": "Roofing (Asphalt)",
+            "address": "769 Mandrake Point",
+            "image": "/images/construction_9.jpg",
+            "description": "Chlamydosaurus kingii"
+        },
+        {
+            "id": 10,
+            "name": "Ryder Project",
+            "type": "Waterproofing & Caulking",
+            "address": "70289 Jana Junction",
+            "image": "/images/construction_10.jpg",
+            "description": "Alectura lathami"
+        }
+    ]
+}
