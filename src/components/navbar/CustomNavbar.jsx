@@ -33,7 +33,7 @@ export const CustomNavbar = () => {
                                 <NavLink to={'/about'}>About Us</NavLink>
                             </Dropdown.Item>
                             <Dropdown.Item>
-                                <NavLink to={'/contact'}>About Us</NavLink>
+                                <NavLink to={'/contact'}>Contact Us</NavLink>
                             </Dropdown.Item>
                             <Dropdown.Item to={'/projects'}>
                                 Projects
