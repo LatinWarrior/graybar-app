@@ -45,9 +45,6 @@ export const CustomNavbar = () => {
                         to={'/'}>
                         Greenbar & Artisans
                     </NavLink>
-                    {/* <a className='btn btn-ghost normal-case text-xl'>
-                        Greenbar & Artisans
-                    </a> */}
                 </Navbar.Start>
                 <Navbar.Center className='hidden lg:flex'>
                     <Menu horizontal className='p-0'>
